@@ -8,9 +8,11 @@ public class HealthComponent : MonoBehaviour
     public int Health { get => health; private set => health = value; }
     public bool IsDead => Health <= 0;
 
+    public int MaxHealth { get => maxHealth;}
+
     private void Awake()
     {
-        Health = maxHealth;
+        Health = MaxHealth;
     }
     public void TakeDamage(int damage)
     {
@@ -23,7 +25,7 @@ public class HealthComponent : MonoBehaviour
     {
         if (IsDead)
             return;
-        if (Health >= maxHealth)
+        if (Health >= MaxHealth)
             return;
         Health += amount;
     }

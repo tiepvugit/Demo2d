@@ -367,3 +367,4 @@ FodyWeavers.xsd
 *.vsconfig
 *.sln
 *.csproj
+/.vscode
