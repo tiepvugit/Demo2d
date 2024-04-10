@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/BayatGames/Free Platform Game Assets/Demo/Demo.unity
-    guid: c141d24673958bb44b780d361745cca7
+    path: Assets/_Assets/Scenes/Test.unity
+    guid: 4fea80241e120e441a5cca085a4660dc
+  - enabled: 1
+    path: Assets/_Assets/Scenes/DragonWarrior.unity
+    guid: 10c840c312c21da49be812877385f5f9
   m_configObjects: {}

@@ -845,6 +845,10 @@ PrefabInstance:
       propertyPath: jumpKey
       value: 273
       objectReference: {fileID: 0}
+    - target: {fileID: 6228975178239484760, guid: 4bf6d51cb4355484197e6e47c1bc73ac, type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 8684161508579584455, guid: 4bf6d51cb4355484197e6e47c1bc73ac, type: 3}
       propertyPath: attackKey
       value: 265
